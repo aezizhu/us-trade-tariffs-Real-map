@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h1>D3 Test Page</h1>
+    <div id="test-container"></div>
+    
+    <script>
+        console.log('Test page loaded');
+        console.log('D3 version:', d3.version);
+        
+        // Test basic D3 functionality
+        try {
+            const container = d3.select('#test-container');
+            container.append('div')
+                .text('D3 is working!')
+                .style('color', 'green')
+                .style('font-size', '20px');
+                
+            console.log('D3 test successful');
+        } catch (error) {
+            console.error('D3 test failed:', error);
+        }
+    </script>
+</body>
+</html>

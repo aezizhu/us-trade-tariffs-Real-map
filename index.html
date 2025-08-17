@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Trade Tariffs 2025 - Interactive World Map</title>
+    <link rel="stylesheet" href="style.css?v=20250817-1">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Loading World Map...</h2>
+            <p>Preparing trade tariff data</p>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="app" class="app hidden">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <h1>US Trade Tariffs 2025 - Interactive World Map</h1>
+                <p class="header-subtitle">Reciprocal Tariff Policy Implementation - August 2025</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <div class="content-grid">
+                    <!-- Map Section -->
+                    <section class="map-section">
+                        <div class="map-container">
+                            <svg id="world-map"></svg>
+                            <div id="tooltip" class="tooltip hidden"></div>
+                        </div>
+                        <div class="map-controls">
+                            <button id="reset-zoom" class="btn btn--secondary btn--sm">Reset Zoom</button>
+                            <span class="map-instructions">Hover over countries for details • Click for more information</span>
+                        </div>
+                    </section>
+
+                    <!-- Sidebar -->
+                    <aside class="sidebar">
+                        <!-- Legend -->
+                        <div class="card legend-card">
+                            <div class="card__header">
+                                <h3>Tariff Categories</h3>
+                            </div>
+                            <div class="card__body">
+                                <div id="legend" class="legend"></div>
+                            </div>
+                        </div>
+
+                        <!-- Statistics -->
+                        <div class="card stats-card">
+                            <div class="card__header">
+                                <h3>Policy Statistics</h3>
+                            </div>
+                            <div class="card__body">
+                                <div class="stat-item">
+                                    <span class="stat-label">Total Countries</span>
+                                    <span class="stat-value">72</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Average Tariff Rate</span>
+                                    <span class="stat-value">18.6%</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Policy Date</span>
+                                    <span class="stat-value">August 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Country Details -->
+                        <div id="country-details" class="card country-details hidden">
+                            <div class="card__header">
+                                <h3 id="country-name">Select a Country</h3>
+                            </div>
+                            <div class="card__body">
+                                <div id="country-info">
+                                    <p>Click on a country to view detailed tariff information</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Context Information -->
+                        <div class="card context-card">
+                            <div class="card__header">
+                                <h3>Policy Background</h3>
+                            </div>
+                            <div class="card__body">
+                                <p>The Trump administration implemented unprecedented tariffs using emergency powers, with a 10% baseline tariff plus country-specific rates based on bilateral trade deficits.</p>
+                                <p class="mt-8">This map shows current US trade tariff rates under the 'reciprocal tariff' policy as of August 2025.</p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 US Trade Policy Visualization | Data source: US Trade Representative Office | Last updated: August 2025</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

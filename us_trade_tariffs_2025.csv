@@ -1,0 +1,73 @@
+country,tariff_rate,status,category,color,additional_info
+Afghanistan,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Algeria,30,Reciprocal tariff,High,#fd8d3c,Reciprocal tariff
+Angola,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Australia,10,Baseline,Low,#66c2a5,Baseline
+Bangladesh,20,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Bolivia,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Bosnia and Herzegovina,30,Reciprocal tariff,High,#fd8d3c,Reciprocal tariff
+Botswana,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Brazil,50,Emergency tariff (Brazil actions),Very High,#e31a1c,Emergency tariff (Brazil actions)
+Brunei,25,Reciprocal tariff,Medium-High,#feb24c,Reciprocal tariff
+Cambodia,19,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Cameroon,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Canada,25,Section 232 + USMCA issues,Medium-High,#feb24c,Section 232 + USMCA issues
+Chad,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Chile,10,Baseline,Low,#66c2a5,Baseline
+China,30,Negotiated (10% baseline + 20% fentanyl),High,#fd8d3c,Negotiated (10% baseline + 20% fentanyl)
+Democratic Republic of Congo,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Ecuador,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Equatorial Guinea,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+European Union,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Falkland Islands,10,UK territory,Low,#66c2a5,UK territory
+Fiji,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Guyana,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Iceland,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+India,50,Secondary tariff (Russian oil),Very High,#e31a1c,Secondary tariff (Russian oil)
+Indonesia,19,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Iraq,35,Reciprocal tariff,High,#fd8d3c,Reciprocal tariff
+Israel,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Ivory Coast,10,Baseline adjusted,Low,#66c2a5,Baseline adjusted
+Japan,15,Negotiated rate,Low-Medium,#abdda4,Negotiated rate
+Jordan,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Kazakhstan,25,Reciprocal tariff,Medium-High,#feb24c,Reciprocal tariff
+Laos,40,Reciprocal tariff,Very High,#e31a1c,Reciprocal tariff
+Lesotho,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Libya,30,Reciprocal tariff,High,#fd8d3c,Reciprocal tariff
+Liechtenstein,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Madagascar,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Malawi,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Malaysia,19,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Mauritius,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Mexico,25,Section 232 + USMCA issues,Medium-High,#feb24c,Section 232 + USMCA issues
+Moldova,25,Reciprocal tariff,Medium-High,#feb24c,Reciprocal tariff
+Mozambique,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Myanmar,40,Reciprocal tariff,Very High,#e31a1c,Reciprocal tariff
+Namibia,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Nauru,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+New Zealand,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Nicaragua,18,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Nigeria,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+North Macedonia,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Norway,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Pakistan,19,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Papua New Guinea,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Philippines,19,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Russia,0,Sanctions exemption,Exempt,#2d5aa0,Sanctions exemption
+Serbia,35,Reciprocal tariff,High,#fd8d3c,Reciprocal tariff
+South Africa,30,Reciprocal tariff,High,#fd8d3c,Reciprocal tariff
+South Korea,15,Negotiated rate,Low-Medium,#abdda4,Negotiated rate
+Sri Lanka,20,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Switzerland,39,Reciprocal tariff,Very High,#e31a1c,Reciprocal tariff
+Syria,41,Reciprocal tariff,Very High,#e31a1c,Reciprocal tariff
+Taiwan,20,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Thailand,19,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Tunisia,25,Reciprocal tariff,Medium-High,#feb24c,Reciprocal tariff
+Turkey,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Uganda,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+United Kingdom,10,Trade deal negotiated,Low,#66c2a5,Trade deal negotiated
+Vanuatu,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Venezuela,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Vietnam,20,Reciprocal tariff,Medium,#ffffb3,Reciprocal tariff
+Zambia,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
+Zimbabwe,15,Reciprocal tariff,Low-Medium,#abdda4,Reciprocal tariff
