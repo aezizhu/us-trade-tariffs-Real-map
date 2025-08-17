@@ -131,7 +131,7 @@ Upload all files as-is to Netlify, Vercel, Cloudflare Pages, S3 + CloudFront, or
 - Built with D3.js v7.
 
 ## License
-This project is provided as-is for educational and informational purposes. If you plan to open-source it, consider the **MIT License**:
+**MIT License**:
 
 ```text
 MIT License
